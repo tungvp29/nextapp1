@@ -1,0 +1,24 @@
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+.footer-content  p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.footer-content  ul{
+    margin-top: 32px;
+}
+.footer-content  svg{
+    margin-right: 10px;
+}
+
+/* Add media query for width 470px */
+@media (max-width: 470px) {
+    .footer-content p {
+        justify-content: center;
+        align-items: start;
+    }
+}
